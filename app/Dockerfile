@@ -2,7 +2,8 @@ FROM node:13-alpine
 
 COPY . .
 
-RUN npm install
+RUN apk add --no-cache --virtual .gyp python make g++ && \ 
+    npm install
 
 EXPOSE 3000
 
