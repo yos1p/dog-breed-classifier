@@ -24,7 +24,6 @@ app.post('/predict', (req, res) => {
     image = image.expandDims(0)
 
     tf.loadLayersModel(handler, { strict: false }).then((model) => {
-        console.log('Model loaded')
         prediction = model.predict(image)
         let { values, indices } = tf.topk(prediction, 3, true)
         values = values.arraySync()[0]
