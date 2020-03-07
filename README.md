@@ -8,7 +8,10 @@
 The dataset is taken from [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
 
 ## Model
-You can use the Notebook and run the training and do your own training or you can download the [HDF5 file]((https://yosi1.s3-ap-southeast-1.amazonaws.com/models/stanford_dogs_20200307.h5)) and import directly to Tensorflow.
+You can use the Notebook and run the training and do your own training or you can download the [HDF5 file](https://yosi1.s3-ap-southeast-1.amazonaws.com/models/stanford_dogs_20200307.h5) and import directly to Tensorflow.
 
+<br/>
+<br/>
+<br/>
 
-TensorFlow, the TensorFlow logo and any related marks are trademarks of Google Inc.
+*TensorFlow, the TensorFlow logo and any related marks are trademarks of Google Inc.*
