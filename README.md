@@ -5,4 +5,4 @@
 - Develop a simple web application where user can upload an image and receive predictions
 
 ## Dataset
-The dataset is taken from [Kaggle](https://www.kaggle.com/c/dog-breed-identification/overview).
+The dataset is taken from [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
