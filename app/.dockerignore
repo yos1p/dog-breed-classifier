@@ -1,2 +1,7 @@
 node_modules
 tfjs_model
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+.git
+.gitignore
