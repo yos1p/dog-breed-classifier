@@ -8,18 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamyaoxi/dog-breed-classifier.git"
+    "url": "git+https://github.com/yos1p/dog-breed-classifier.git"
   },
   "author": "iamyaoxi <yosi.pramajaya@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/iamyaoxi/dog-breed-classifier/issues"
+    "url": "https://github.com/yos1p/dog-breed-classifier/issues"
   },
-  "homepage": "https://github.com/iamyaoxi/dog-breed-classifier#readme",
+  "homepage": "https://github.com/yos1p/dog-breed-classifier#readme",
   "dependencies": {
-    "@tensorflow/tfjs": "^1.6.0",
     "@tensorflow/tfjs-node": "^1.6.0",
     "express": "^4.17.1",
     "express-fileupload": "^1.1.6"
+  },
+  "devDependencies": {
+    "@types/express-fileupload": "^1.1.2",
+    "typescript": "^3.8.3"
   }
 }
