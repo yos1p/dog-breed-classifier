@@ -5,13 +5,10 @@
 - Develop a simple web application where user can upload an image and receive predictions
 
 ## Dataset
-The dataset is taken from [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/).
+I use [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/) as the main source of samples. It contains around 12 thousands of dog images into 120 breeds.
 
 ## Model
-You can use the Notebook and run the training and do your own training or you can download the [HDF5 file](https://yosi1.s3-ap-southeast-1.amazonaws.com/models/stanford_dogs_20200307.h5) and import directly to Tensorflow.
+The base model that I use is MobileNetV2 with some fine-tuning. You can find out more about the model training in the notebooks directory.
 
-<br/>
-<br/>
-<br/>
-
-*TensorFlow, the TensorFlow logo and any related marks are trademarks of Google Inc.*
+## Performance
+The model achieve overal accuracy of 76%.
