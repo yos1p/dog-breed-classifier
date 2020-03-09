@@ -11,4 +11,8 @@ I use [Stanford Dogs Dataset](http://vision.stanford.edu/aditya86/ImageNetDogs/)
 The base model that I use is MobileNetV2 with some fine-tuning. You can find out more about the model training in the notebooks directory.
 
 ## Performance
-The model achieve overal accuracy of 76%.
+The model achieve overal accuracy of 76%. Maybe the result is pretty biased because of the lack of test samples.
+
+![Accuracy per Class](https://github.com/yos1p/dog-breed-classifier/raw/master/images/accuracy_per_class.png)
+
+
