@@ -10,10 +10,12 @@ class ModelFactory {
 
     loadModel() {
         if (this.model == null) {
-            // Use only if you run in AWS infrastructure
-            tf.loadLayersModel('https://yosi1.s3-ap-southeast-1.amazonaws.com/models/stanford_dogs/model.json', { strict: false }).then((model) => { 
+
+            //For running locally use something like this:
             //const handler = tfn.io.fileSystem("./tfjs_model/model.json")                
             //tf.loadLayersModel(handler, { strict: false }).then((model) => {
+
+            tf.loadLayersModel('https://yosi1.s3-ap-southeast-1.amazonaws.com/models/stanford_dogs/model.json', { strict: false }).then((model) => { 
                 this.model = model;
                 console.log(`Model Loaded: ${this.model != null}`)
             }).catch((err) => {
